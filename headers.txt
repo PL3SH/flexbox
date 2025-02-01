@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+content-type: application/json; charset=utf-8
+vary: Accept
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNzM4MzY4OTE5LCJleHAiOjE3Mzg0NTUzMTksImp0aSI6IjU1OTc2NWQ2LWM5YWQtNDJkMC1iZDE1LTczMDFjOGI2OTk3ZiJ9.M-ZIaR4Jc8uLJJ81npME_GtoK4oRQx2hs-rRI0DUN9Q
+etag: W/"dd19bd52e06324a30b3fc53b9a1d3ee0"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: d265ce58-d2a7-4edc-8a25-574e6cdf557a
+x-runtime: 0.228984
+server-timing: start_processing.action_controller;dur=0.02, sql.active_record;dur=10.80, instantiation.active_record;dur=4.67, process_action.action_controller;dur=223.23
+Content-Length: 230
+
