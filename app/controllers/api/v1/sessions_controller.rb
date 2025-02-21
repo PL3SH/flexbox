@@ -18,11 +18,14 @@ class Api::V1::SessionsController < Devise::SessionsController
   end
 
   def respond_to_on_destroy
+    # Check if there was an authenticated user during this request
     if current_user
+      # User was successfully signed out
       render json: {
         status: { code: 200, message: 'Logged out successfully.' }
       }, status: :ok
     else
+      # No user was signed in to begin with
       render json: {
         status: { code: 401, message: 'No active session' }
       }, status: :unauthorized
