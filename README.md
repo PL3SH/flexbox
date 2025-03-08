@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# Simple version
+curl http://localhost:3000/api/v1/tasks
+
+# Verbose version with headers
+curl -X GET \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  http://localhost:3000/api/v1/tasks
